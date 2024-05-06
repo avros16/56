@@ -1,5 +1,24 @@
 #include <iostream>
+using namespace std; 
+
+
+// indexes start at 0
+//you dont have to add the size into the []
+
+
 
 int main() {
-  std::cout << "Hello World!\n";
+  
+  int x_arr[6] = {5,10,7,4,10,8};
+
+
+  for (int ct{0}; ct <=5; ct++){
+  cout << "value of x is " <<x_arr[ct]<<endl; 
+  }
+
+  // adding[] and the number of the index will print the specific digit 
+
+  return 0;
+
+  
 }
