@@ -9,16 +9,33 @@ using namespace std;
 
 int main() {
   
-  int x_arr[6] = {5,10,7,4,10,8};
- x_arr[0] = 6;
+  
+  int ct{0};
+  int x_arr[] = {5,10,7,4,10,8};
+  
 
-  for (int ct{0}; ct <=5; ct++){
-  cout << "value of x is " <<x_arr[ct]<<endl; 
-  }
+while (ct <6) {
+  
+  // or you can say enter element (ct+1)
+  cout << "Enter a number for index " << ct << endl;
+  cin >> x_arr[ct]; 
+  ct++;
+  
+}
 
-  // adding[] and the number of the index will print the specific digit 
 
-  return 0;
+
+
+
+
+
 
   
+    // for (int ct{0}; ct <=5; ct++){
+    // cout << "value of x is " <<x_arr[ct]<<endl; 
+    // }
+
+    // // adding[] and the number of the index will print the specific digit 
+
+    return 0;
 }
