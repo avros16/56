@@ -5,8 +5,10 @@ using namespace std;
 // indexes start at 0
 //you dont have to add the size into the []
 // elemts are inside []
-
-
+// can store size in sperate variable 
+// rand()%100+1;
+//ctime, srand(time (null))
+//
 int main() {
   
   
