@@ -8,7 +8,7 @@ using namespace std;
 // can store size in sperate variable 
 // rand()%100+1;
 //ctime, srand(time (null))
-//
+//const -- doesnt allow change : const int {0}; read only 
 int main() {
   
   
